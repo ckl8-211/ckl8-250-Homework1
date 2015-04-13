@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/pre-dexed/debug/classes-80799ab0ef89faa9d9a3e48a323842032f80b62a.jar" />
+    </item>
+    <item
+        jar="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a4128a3d7a1cf8e3939a7420d04a1dc088c2f511.jar" />
+    </item>
+    <item
+        jar="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/pre-dexed/debug/classes-a6a106c7a04ef4bd894ed9b67368ccf56db64a30.jar" />
+    </item>
+    <item
+        jar="/Users/rlam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/rlam/ckl8-250-Homework1/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-44d286a54327dd5dee9dbc2e69a6b333f0030090.jar" />
+    </item>
+
+</items>
