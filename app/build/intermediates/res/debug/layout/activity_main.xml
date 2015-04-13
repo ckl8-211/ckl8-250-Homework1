@@ -15,31 +15,31 @@
        <ImageView
            android:layout_width="80dp"
            android:layout_height="80dp"
-           android:src="@drawable/logo" />
+           android:src="@drawable/logo_nologo" />
 
    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:padding="20dp"
+        android:padding="10dp"
         android:layout_weight="3">
 
         <EditText
             style="@style/InputField"
-            android:id="@+id/editTextUserName"
-            android:inputType="textEmailAddress"
+            android:id="@+id/editTextPassword"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/button"
-            android:hint="Name" />
+            android:inputType="textPassword"
+            android:password="true"
+            android:hint="Password" />
 
         <EditText
             style="@style/InputField"
             android:id="@+id/editTextEmail"
             android:inputType="textEmailAddress"
-            android:layout_below="@+id/editTextUserName"
-            android:layout_alignLeft="@+id/editTextUserName"
-            android:layout_alignStart="@+id/editTextUserName"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_alignLeft="@+id/editTextPassword"
+            android:layout_alignStart="@+id/editTextPassword"
             android:hint="Email" />
 
     </RelativeLayout>

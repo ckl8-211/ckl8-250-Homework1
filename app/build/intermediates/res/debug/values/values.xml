@@ -214,6 +214,7 @@
     <string name="app_name">ckl8-250-Homework1</string>
     <string name="email_label">Email:</string>
     <string name="name_label">Name:</string>
+    <string name="password_label">Password:</string>
     <string name="submit_button_text">SUBMIT</string>
     <string name="title_activity_confirm_user">ConfirmUser</string>
     <!-- From: file:/Users/rlam/ckl8-250-Homework1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->

@@ -369,6 +369,7 @@ int drawable logo 0x7f02003f
 int drawable logo_nologo 0x7f020040
 int drawable mirror 0x7f020041
 int drawable rectangle 0x7f020042
+int drawable rectangle_select 0x7f020043
 int id action_bar 0x7f090031
 int id action_bar_activity_content 0x7f090000
 int id action_bar_container 0x7f090030
@@ -395,7 +396,7 @@ int id dialog 0x7f09001b
 int id disableHome 0x7f09000c
 int id dropdown 0x7f09001c
 int id editTextEmail 0x7f090042
-int id editTextUserName 0x7f090041
+int id editTextPassword 0x7f090041
 int id edit_query 0x7f090033
 int id end 0x7f090014
 int id expand_activities_button 0x7f090022
@@ -432,7 +433,7 @@ int id split_action_bar 0x7f090007
 int id submit_area 0x7f09003c
 int id tabMode 0x7f09000b
 int id textViewEmail 0x7f090040
-int id textViewName 0x7f09003f
+int id textViewPassword 0x7f09003f
 int id title 0x7f090027
 int id up 0x7f090008
 int id useLogo 0x7f090012
@@ -489,8 +490,9 @@ int string action_settings 0x7f0b0010
 int string app_name 0x7f0b0011
 int string email_label 0x7f0b0012
 int string name_label 0x7f0b0013
-int string submit_button_text 0x7f0b0014
-int string title_activity_confirm_user 0x7f0b0015
+int string password_label 0x7f0b0014
+int string submit_button_text 0x7f0b0015
+int string title_activity_confirm_user 0x7f0b0016
 int style Animation_AppCompat_DropDownUp 0x7f0c0000
 int style AppTheme 0x7f0c0001
 int style Base_Animation_AppCompat_DropDownUp 0x7f0c0002

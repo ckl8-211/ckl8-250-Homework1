@@ -1335,6 +1335,7 @@ containing a value of this type.
         public static final int logo_nologo=0x7f020040;
         public static final int mirror=0x7f020041;
         public static final int rectangle=0x7f020042;
+        public static final int rectangle_select=0x7f020043;
     }
     public static final class id {
         public static final int action_bar=0x7f090031;
@@ -1363,7 +1364,7 @@ containing a value of this type.
         public static final int disableHome=0x7f09000c;
         public static final int dropdown=0x7f09001c;
         public static final int editTextEmail=0x7f090042;
-        public static final int editTextUserName=0x7f090041;
+        public static final int editTextPassword=0x7f090041;
         public static final int edit_query=0x7f090033;
         public static final int end=0x7f090014;
         public static final int expand_activities_button=0x7f090022;
@@ -1400,7 +1401,7 @@ containing a value of this type.
         public static final int submit_area=0x7f09003c;
         public static final int tabMode=0x7f09000b;
         public static final int textViewEmail=0x7f090040;
-        public static final int textViewName=0x7f09003f;
+        public static final int textViewPassword=0x7f09003f;
         public static final int title=0x7f090027;
         public static final int up=0x7f090008;
         public static final int useLogo=0x7f090012;
@@ -1467,8 +1468,9 @@ containing a value of this type.
         public static final int app_name=0x7f0b0011;
         public static final int email_label=0x7f0b0012;
         public static final int name_label=0x7f0b0013;
-        public static final int submit_button_text=0x7f0b0014;
-        public static final int title_activity_confirm_user=0x7f0b0015;
+        public static final int password_label=0x7f0b0014;
+        public static final int submit_button_text=0x7f0b0015;
+        public static final int title_activity_confirm_user=0x7f0b0016;
     }
     public static final class style {
         public static final int Animation_AppCompat_DropDownUp=0x7f0c0000;

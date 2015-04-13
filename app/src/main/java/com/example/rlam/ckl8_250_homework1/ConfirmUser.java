@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class ConfirmUser extends ActionBarActivity {
 
-    private String mName;
+    private String mPassword;
     private String mEmail;
 
     @Override
@@ -16,14 +16,14 @@ public class ConfirmUser extends ActionBarActivity {
         setContentView(R.layout.activity_confirm_user);
 
         Bundle extras = getIntent().getExtras();
-        mName = extras.getString("name");
+        mPassword = extras.getString("password");
         mEmail = extras.getString("email");
 
-        TextView textViewName = (TextView) findViewById(R.id.textViewName);
+        TextView textViewName = (TextView) findViewById(R.id.textViewPassword);
         TextView textViewEmail = (TextView) findViewById(R.id.textViewEmail);
 
         // Name
-        textViewName.setText(mName);
+        textViewName.setText(mPassword);
         // Email
         textViewEmail.setText(mEmail);
     }

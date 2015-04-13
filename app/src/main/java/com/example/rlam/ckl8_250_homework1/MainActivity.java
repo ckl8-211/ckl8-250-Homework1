@@ -14,7 +14,7 @@ import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
-    private EditText mEditTextName;
+    private EditText mEditTextPassword;
     private EditText mEditTextEmail;
 
     @Override
@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         // Find the views by ids
-        mEditTextName = (EditText) findViewById(R.id.editTextUserName);
+        mEditTextPassword = (EditText) findViewById(R.id.editTextPassword);
         mEditTextEmail = (EditText) findViewById(R.id.editTextEmail);
 
 
@@ -44,8 +44,8 @@ public class MainActivity extends ActionBarActivity {
      */
     private boolean formIsValid() {
         // check if name is entered
-        if (TextUtils.isEmpty(getInput(mEditTextName))) {
-            mEditTextName.setError("Please enter a name");
+        if (TextUtils.isEmpty(getInput(mEditTextPassword))) {
+            mEditTextPassword.setError("Please enter password");
             return false;
         }
         // check if email is entered
@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity {
     private void gotoConfirmationScreen() {
 
         Intent intent = new Intent(this, ConfirmUser.class);
-        intent.putExtra("name", mEditTextName.getText().toString());
+        intent.putExtra("name", mEditTextPassword.getText().toString());
         intent.putExtra("email", mEditTextEmail.getText().toString());
         startActivity(intent);
 
