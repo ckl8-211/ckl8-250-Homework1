@@ -1089,7 +1089,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">30dp</item>
         <item name="android:layout_marginBottom">30dp</item>
-        <item name="android:background">@drawable/button</item>
+        <item name="android:background">@drawable/input_text_select</item>
     </style>
     <!-- From: file:/Users/rlam/ckl8-250-Homework1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
